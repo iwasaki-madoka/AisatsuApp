@@ -36,11 +36,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     private fun judgeAisatsu(hour:Int, minute:Int){
-        if((hour >= 2) && (hour <= 9)){ // 10時以降、17時代以内であれば
+        if((hour >= 2) && (hour <= 9)){ // 2時以降、9時台以内であれば
             textView.text = "おはよう"
-        } else if((hour >= 10) && (hour <= 17)){ // 10時以降、17時代以内であれば
+        } else if((hour >= 10) && (hour <= 17)){ // 10時以降、17時台以内であれば
             textView.text = "こんにちは"
-        } else {
+        } else { // それ以外
             textView.text = "こんばんは"
         }
     }
