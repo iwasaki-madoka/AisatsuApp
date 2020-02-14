@@ -45,5 +45,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
-
+// test1ブランチの追加
 }
