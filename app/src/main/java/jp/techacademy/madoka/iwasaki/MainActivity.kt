@@ -47,4 +47,5 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
 // test1ブランチの追加
 // test1ブランチの追加2
+// aaaaa
 }
